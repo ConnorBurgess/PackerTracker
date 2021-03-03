@@ -1,0 +1,18 @@
+@using PackerTracker.Models;
+
+<h1>Camping items</h1>
+
+@if (Model.Count == 0)
+{
+  <p>No items in list!</p>
+}
+<ul>
+  @foreach (Camping item in Model)
+  {
+
+    <li><b>Item @item.Id</b>: @item.Name <br> Packed: @item.Packed <br></li>
+  }
+</ul>
+<a href="/camping/new">Add an item!</a>
+<a href="/">Go Home</a>
+<a href="/camping/delete">Clear List</a>

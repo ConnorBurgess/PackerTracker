@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Add Camping Item Form</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body style="background-color:DarkGoldenRod; border: 4px solid MintCream;">
+  <div class="jumbotron" style="text-align: center; font-size: 40px; font-weight: bold;"> Camping Item Form
+  </div>
+  <div class="container">
+    <h1></h1>
+    <form action="/camping" method="post" style="margin-top: 10vw;">
+      <div style=" display:block;">
+      <label for="name">Enter your item's name</label>
+      <input id="name" name="name" type="text">
+      <div style="display:block;">
+        <label for="packed">Enter whether you packed it or not!</label>
+        <select id="packed" name="packed" type="text">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+      <button type="submit">Pack it!</button>
+    </form>
+    <a href="/">Go Home</a>
+  </div>
+</body>
+
+</html>

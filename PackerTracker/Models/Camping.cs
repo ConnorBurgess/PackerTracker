@@ -6,11 +6,11 @@ namespace PackerTracker.Models
   public class Camping
   {
     public string Name { get; private set; }
-    public bool Packed { get; private set; }
+    public string Packed { get; private set; }
     public int Id { get; private set; }
     private static List<Camping> _instances = new List<Camping> {}; 
 
-    public Camping(string name, bool packed) 
+    public Camping(string name, string packed) 
     {
       Name = name;
       Packed = packed;
@@ -21,6 +21,11 @@ namespace PackerTracker.Models
     public static List<Camping> GetAll()
     {
       return _instances;
+    }
+
+    public static void ClearAll()
+    {
+      _instances.Clear();
     }
   }
 }
