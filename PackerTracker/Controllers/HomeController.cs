@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using ProjectName.Models;
+using PackerTracker.Models;
 
-namespace ProjectName.Controllers
+namespace PackerTracker.Controllers
 {
   public class HomeController : Controller
   {
