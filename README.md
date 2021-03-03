@@ -1,4 +1,4 @@
-# _{Application Name}_
+# _PackerTracker_
 
 #### _A program for users to catalog things they need for upcoming camping, backpacking, bike touring, road trips, or other types of travel._
 
@@ -26,7 +26,8 @@ _This program will allow user's to input a list of items they will need for a tr
 * _To see results of the tests you will need to scroll up in the terminal to find the relevant testing information_
 * _If all tests are passing, the relevant information will be colored green, otherwise failing tests will return in red coloring_
 * _To run the program, you will need to navigate to the ProjectName directory and run the command `$dotnet run`_
-* _If everything is working correctly the prompt should appear in the terminal_
+* _If everything is working correctly a server should open up in localport:5000._
+* _You can type Http://localport:5000 into your browser search bar to acess the site_
 
 ## Known Bugs
 
